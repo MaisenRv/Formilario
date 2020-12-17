@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+}
+.form{
+    width: 86%;
+    background-color: black;
+    padding: 30px;
+}
+input{
+    display: block;
+    width: 90%;
+    padding: 6px;
+    margin: 6px 5%;
+    box-sizing: border-box;
+    border: none;
+    border-top: 2px solid #666;
+    background-color: transparent;
+    color: white;
+}
+
+input:hover{
+    background-color: #26a;
+}
+
+input::placeholder{
+    color: #fff;
+}
+h2{
+    color: white;
+}
+
+input[type = "submit"]{
+    width: 50%;
+    margin-top: 12px;
+    padding: 9px;
+    background-color: #26a;
+    color: #fff;
+    border: none;
+}
+
+.error{
+    color: red;
+    margin: 6px 12px;
+    padding: 9px;
+}
+.error > p{
+    display: inline;
+}
+
+.img{
+    width: 15px;
+    border-radius: 50%;
+}
